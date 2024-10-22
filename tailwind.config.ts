@@ -7,12 +7,17 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+    colors: {
+      transparent: "transparent",
+      white: "#FFF",
+      "red": "hsl(14, 86%, 42%)",
+      "green": "hsl(159, 69%, 38%)",
+      "rose50": "hsl(20, 50%, 98%)",
+      "rose100": "hsl(13, 31%, 94%)",
+      "rose300": "hsl(14, 25%, 72%)",
+      "rose400": "hsl(7, 20%, 60%)",
+      "rose500": "hsl(12, 20%, 44%)",
+      "rose900": "hsl(14, 65%, 9%)"
     },
   },
   plugins: [],
